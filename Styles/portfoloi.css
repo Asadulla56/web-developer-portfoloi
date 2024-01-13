@@ -29,6 +29,7 @@ body {
 .section-description {
     color: #757575;
     text-align: center;
+    justify-content: space-between;
     font-size: 1.125rem;
     margin-top: 20px;
 }
@@ -109,13 +110,24 @@ nav a {
 
 /* main section styles */
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
-    padding: 130;
+    padding: 130px;
     border-radius: 0.625rem;
     background: #FFF8F3;
     margin: 130px 0px;
+    text-align: justify;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
